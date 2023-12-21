@@ -11,11 +11,11 @@ from graia.ariadne.message.parser.base import DetectPrefix, MatchRegex
 from graia.ariadne.model import Group, Member
 from graia.saya import Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
-from Api import tool
-from Api import maimaidx_music
-from Api import image
-from Api import maimai_best_40
-from Api import maimai_best_50
+from .Api import tool
+from .Api import maimaidx_music
+from .Api import image
+from .Api import maimai_best_40
+from .Api import maimai_best_50
 
 channel = Channel.current()
 
